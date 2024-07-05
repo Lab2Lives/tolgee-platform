@@ -193,12 +193,12 @@ export const colors = {
       progressBackground: '#bcbcbc70',
       itemBorder: '#EDF0F7',
       finishIcon: '#fff',
-      finishBackground: '#EC407A19',
-      finishCircle: '#EC407A',
+      finishBackground: '#11649319',
+      finishCircle: '#116493',
     } as QuickStart,
     import: {
       progressDone: '#00B962',
-      progressWorking: '#EC407A',
+      progressWorking: '#116493',
       progressBackground: '#D9D9D9',
     },
     exampleBanner: {
@@ -219,9 +219,9 @@ export const colors = {
         text: '#008371',
       },
       tag: {
-        border: '#F27FA6',
-        background: '#F9C4D6',
-        text: '#822343',
+        border: '#45b3e6',
+        background: '#89cef0',
+        text: '#0e2d43',
       },
       variant: {
         border: '#BBC2CB',
@@ -291,7 +291,7 @@ export const colors = {
       other: '#99aaff',
       main: '#eeeeee',
     } satisfies Editor,
-    globalLoading: '#ff6995',
+    globalLoading: '#03a9f4',
     marker: {
       primary: '#ff0000',
       secondary: '#ffc0cb',
@@ -317,12 +317,12 @@ export const colors = {
       topBorder: '#2a384c',
       progressBackground: '#2c3c52',
       finishIcon: '#fff',
-      finishBackground: '#EC407A19',
-      finishCircle: '#EC407A',
+      finishBackground: '#0e2d43',
+      finishCircle: '#229bd5',
     } as QuickStart,
     import: {
       progressDone: '#00B962',
-      progressWorking: '#EC407A',
+      progressWorking: '#229bd5',
       progressBackground: '#D9D9D9',
     },
     exampleBanner: {
@@ -343,8 +343,8 @@ export const colors = {
         text: '#F0F2F4',
       },
       tag: {
-        border: '#824563',
-        background: '#824563',
+        border: '#154765',
+        background: '#154765',
         text: '#F0F2F4',
       },
       variant: {
