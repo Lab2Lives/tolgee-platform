@@ -1,0 +1,6 @@
+tolgee:
+  authentication:
+    enabled: true
+    initial-password: admin
+    initial-username: BenKon@123
+    jwt-secret: sUvaiDyPVyZ1J4ZpHaPvKT0iEw1kzrRQ

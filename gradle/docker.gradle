@@ -21,7 +21,7 @@ task docker {
     doLast {
         exec {
             workingDir dockerPath
-            commandLine "docker", "build", ".", "-t", "tolgee/tolgee"
+            commandLine "docker", "build", ".", "-t", "benkon/tolgee"
             environment.put("DOCKER_BUILDKIT", "0")
         }
     }
