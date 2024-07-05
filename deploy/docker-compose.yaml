@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: tolgee/tolgee
+    image: erichieule/tolgee
     volumes:
       - ./data:/data
       - ./config.yaml:/config.yaml # <--- this line
