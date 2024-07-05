@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
 import { SvgIcon, SvgIconProps } from '@mui/material';
 
-import Logo from 'tg.svgs/tolgeeLogo.svg?react';
+import Logo from 'tg.svgs/benkonLogo.svg?react';
 
 export const TolgeeLogo: FunctionComponent<SvgIconProps> = (props) => (
   <SvgIcon {...props}>

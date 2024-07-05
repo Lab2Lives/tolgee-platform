@@ -93,6 +93,19 @@ export const tolgeeColors = {
     '800': '#0277bd',
     '900': '#01579b',
   },
+  benkonBlue: {
+    '50': '#f1f9fe',
+    '100': '#e3f1fb',
+    '200': '#c0e3f7',
+    '300': '#89cef0',
+    '400': '#45b3e6',
+    '500': '#229bd5',
+    '600': '#147cb5',
+    '700': '#116493',
+    '800': '#12557a',
+    '900': '#154765',
+    '950': '#0e2d43',
+  },
   orange: {
     '50': '#fff3e0',
     '100': '#ffe0b2',
@@ -114,7 +127,7 @@ export const tolgeeColors = {
 export const tolgeePalette = {
   Light: {
     logo: {
-      symbol: tolgeeColors['pink']['500'],
+      symbol: tolgeeColors['benkonBlue']['500'],
       text: tolgeeColors['grey']['800'],
     },
     icon: {
@@ -123,7 +136,7 @@ export const tolgeePalette = {
       tertiary: '#1f2d4066',
       menuDefault: tolgeeColors['grey']['600'],
       menuHover: tolgeeColors['grey']['800'],
-      menuSelected: tolgeeColors['pink']['600'],
+      menuSelected: tolgeeColors['benkonBlue']['600'],
       menuSelectedBg: '#1f2d400f',
     },
     state: {
@@ -152,9 +165,9 @@ export const tolgeePalette = {
       },
     },
     primary: {
-      main: tolgeeColors['pink']['500'],
-      dark: '#a52c55',
-      light: '#ef6694',
+      main: tolgeeColors['benkonBlue']['600'],
+      dark: tolgeeColors['benkonBlue']['600'],
+      light: tolgeeColors['benkonBlue']['400'],
       contrast: '#ffffff',
       _states: {
         hover: '#ec407a0a',
@@ -322,7 +335,7 @@ export const tolgeePalette = {
       },
       breadcrumbs: {
         collapseFill: tolgeeColors['grey']['50'],
-        link: tolgeeColors['pink']['500'],
+        link: tolgeeColors['benkonBlue']['500'],
         actual: '#000000',
       },
       editor: {
@@ -337,9 +350,9 @@ export const tolgeePalette = {
         placeHolderPluralFill: tolgeeColors['teal']['100'],
         placeHolderPluralBorder: tolgeeColors['teal']['300'],
         placeHolderPluralText: tolgeeColors['teal']['800'],
-        placeHolder: tolgeeColors['pink']['100'],
-        placeHolderBorder: tolgeeColors['pink']['300'],
-        placeHolderText: tolgeeColors['pink']['800'],
+        placeHolder: tolgeeColors['benkonBlue']['100'],
+        placeHolderBorder: tolgeeColors['benkonBlue']['300'],
+        placeHolderText: tolgeeColors['benkonBlue']['800'],
       },
       input: {
         filled: {
@@ -362,10 +375,10 @@ export const tolgeePalette = {
         defaultColor: tolgeeColors['teal']['900'],
         link: tolgeeColors['teal']['600'],
         linkHover: tolgeeColors['teal']['700'],
-        importantFill: tolgeeColors['pink']['50'],
-        importantColor: tolgeeColors['pink']['700'],
-        importantLink: tolgeeColors['pink']['500'],
-        importantLinkHover: tolgeeColors['pink']['600'],
+        importantFill: tolgeeColors['benkonBlue']['50'],
+        importantColor: tolgeeColors['benkonBlue']['700'],
+        importantLink: tolgeeColors['benkonBlue']['500'],
+        importantLinkHover: tolgeeColors['benkonBlue']['600'],
       },
       progressbar: {
         background: tolgeeColors['grey']['50'],
@@ -414,7 +427,7 @@ export const tolgeePalette = {
       tertiary: '#ffffff66',
       menuDefault: tolgeeColors['grey']['200'],
       menuHover: tolgeeColors['grey']['50'],
-      menuSelected: tolgeeColors['pink']['400'],
+      menuSelected: tolgeeColors['benkonBlue']['400'],
       menuSelectedBg: '#ffffff1f',
     },
     state: {
@@ -443,7 +456,7 @@ export const tolgeePalette = {
       },
     },
     primary: {
-      main: tolgeeColors['pink']['400'],
+      main: tolgeeColors['benkonBlue']['400'],
       dark: '#a84768',
       light: '#f384aa',
       contrast: '#000000de',
@@ -613,7 +626,7 @@ export const tolgeePalette = {
       },
       breadcrumbs: {
         collapseFill: tolgeeColors['grey']['600'],
-        link: tolgeeColors['pink']['400'],
+        link: tolgeeColors['benkonBlue']['400'],
         actual: '#000000',
       },
       editor: {
@@ -653,9 +666,9 @@ export const tolgeePalette = {
         defaultColor: tolgeeColors['teal']['100'],
         link: tolgeeColors['grey']['100'],
         linkHover: tolgeeColors['grey']['50'],
-        importantFill: tolgeeColors['pink']['800'],
-        importantColor: tolgeeColors['pink']['200'],
-        importantLink: tolgeeColors['pink']['50'],
+        importantFill: tolgeeColors['benkonBlue']['800'],
+        importantColor: tolgeeColors['benkonBlue']['200'],
+        importantLink: tolgeeColors['benkonBlue']['50'],
         importantLinkHover: tolgeeColors['grey']['50'],
       },
       progressbar: {

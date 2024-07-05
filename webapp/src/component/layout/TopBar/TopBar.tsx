@@ -12,6 +12,7 @@ import { UserMenu } from '../../security/UserMenu/UserMenu';
 import { AdminInfo } from './AdminInfo';
 import { QuickStartTopBarButton } from '../QuickStartGuide/QuickStartTopBarButton';
 import { LanguageMenu } from 'tg.component/layout/TopBar/LanguageMenu';
+import Logo from 'tg.svgs/benkonLogo.svg?react';
 
 export const TOP_BAR_HEIGHT = 52;
 
@@ -98,14 +99,8 @@ export const TopBar: React.FC<Props> = ({
                   justifyItems="center"
                   className="logoWrapper"
                 >
-                  <TolgeeLogo
-                    fontSize="large"
-                    sx={{ color: theme.palette.navbar.logo }}
-                  />
+                  <Logo />
                 </StyledLogoWrapper>
-                <StyledLogoTitle variant="h5" color="inherit">
-                  {config.appName}
-                </StyledLogoTitle>
                 {config.showVersion && (
                   <StyledVersion variant="body1">
                     {config.version}

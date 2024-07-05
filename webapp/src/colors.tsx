@@ -133,8 +133,8 @@ export type LanguageChips = {
 export const colors = {
   light: {
     white: '#fff',
-    primary: '#EC407A',
-    primaryText: '#D81B5F',
+    primary: '#2254A5',
+    primaryText: '#147cb5',
     secondary: '#2B5582',
     default: customGrey[700],
     text: '#4E5967',
@@ -154,7 +154,7 @@ export const colors = {
     navbar: {
       background: '#fff',
       text: '#2C3C52',
-      logo: '#EC407A',
+      logo: '#2254A5',
     },
     activity: {
       removed: '#822B55',
@@ -243,14 +243,14 @@ export const colors = {
   },
   dark: {
     white: '#dddddd',
-    primary: '#ff6995',
-    primaryText: '#ff6995',
+    primary: '#2254A5',
+    primaryText: '#147cb5',
     secondary: '#aed5ff',
     default: customGrey[400],
     text: '#dddddd',
     textSecondary: '#acacac',
     divider1: '#2c3c52',
-    background: '#1f2d40',
+    background: '#151e2b',
     backgroundPaper: '#1e2b3e',
     tile: {
       background: '#233043',
